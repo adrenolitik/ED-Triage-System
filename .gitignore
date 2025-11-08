@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Compiled binary addons
+build
+dist/.wrangler
+
+# dotenv environment variables file
+.env
+.dev.vars
+
+# PM2
+.pm2/
+pids/
+logs/
+*.log
+
+# Wrangler
+.wrangler/
+worker/
+
+# Backup files
+*.backup
+*.bak
+*.tar.gz
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
