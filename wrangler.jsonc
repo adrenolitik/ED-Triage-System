@@ -9,8 +9,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "webapp-production",
-      "database_id": "local-dev-db"
+      "database_name": "triage-app-production",
+      "database_id": "de336f2b-6015-44c5-9294-36b31bed9914"
     }
   ]
 }

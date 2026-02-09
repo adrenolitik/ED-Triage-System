@@ -1,0 +1,48 @@
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                 🎉 ПРИЛОЖЕНИЕ РАЗВЁРНУТО НА CLOUDFLARE! 🎉              ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+🔗 ПОСТОЯННАЯ ССЫЛКА (короткая):
+   https://triage-app.pages.dev
+
+📊 СТАТУС:
+   ✅ Production database: triage-app-production (D1)
+   ✅ Регион: ENAM (Eastern North America)
+   ✅ SSL сертификат: Активен
+   ✅ Тестовые данные: 3 пациента загружены
+
+🌐 API ENDPOINTS:
+   • https://triage-app.pages.dev/api/triage/assess
+   • https://triage-app.pages.dev/api/triage/patients
+   • https://triage-app.pages.dev/api/triage/stats
+
+📝 CLOUDFLARE DASHBOARD:
+   https://dash.cloudflare.com/
+
+🔄 ОБНОВЛЕНИЕ ПРИЛОЖЕНИЯ:
+   cd /home/user/webapp
+   npm run build
+   npx wrangler pages deploy dist --project-name triage-app
+
+💾 БАЗА ДАННЫХ:
+   • Локальная (для разработки):
+     npx wrangler d1 execute triage-app-production --local --command="SELECT * FROM patients"
+   
+   • Production:
+     npx wrangler d1 execute triage-app-production --remote --command="SELECT * FROM patients"
+
+📦 MIGRATION КОМАНДЫ:
+   • Применить миграции в production:
+     npx wrangler d1 migrations apply triage-app-production --remote
+   
+   • Посмотреть список миграций:
+     npx wrangler d1 migrations list triage-app-production
+
+🎯 GITHUB РЕПОЗИТОРИЙ:
+   https://github.com/adrenolitik/ED-Triage-System
+
+───────────────────────────────────────────────────────────────────────────
+
+✨ Приложение доступно 24/7 из любой точки мира!
+✨ Не требует перезапуска - работает автоматически!
+✨ Защищено SSL сертификатом!

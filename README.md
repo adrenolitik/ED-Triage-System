@@ -12,7 +12,9 @@
 
 ## 🌐 Доступ к приложению
 
-**Development URL**: https://3000-i5s9vlknoup5hdhzaldi8-8f57ffe2.sandbox.novita.ai
+**🚀 Production URL** (постоянная короткая ссылка): **https://triage-app.pages.dev**
+
+**Development URL** (sandbox): https://3000-i5s9vlknoup5hdhzaldi8-8f57ffe2.sandbox.novita.ai
 
 ## ✨ Основные возможности
 

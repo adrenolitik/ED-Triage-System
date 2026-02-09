@@ -1,0 +1,8 @@
+name = "triage-app"
+compatibility_date = "2025-11-08"
+pages_build_output_dir = "./dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "triage-app-production"
+database_id = "de336f2b-6015-44c5-9294-36b31bed9914"
